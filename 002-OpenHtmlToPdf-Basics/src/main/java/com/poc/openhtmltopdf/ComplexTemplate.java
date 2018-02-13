@@ -39,7 +39,6 @@ public class ComplexTemplate {
 				builder.useFont(openSansRegular,"Open Sans Regular");
 				builder.useFont(openSansSemiBold,"Open Sans Semi Bold");
 				builder.useFont(openSansSemiBoldItalic,"Open Sans Semi Bold Italic");
-
 				builder.withFile(targetFile);
 				builder.toStream(os);
 				builder.run();
