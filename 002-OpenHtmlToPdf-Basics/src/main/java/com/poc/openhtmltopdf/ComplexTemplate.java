@@ -24,7 +24,7 @@ public class ComplexTemplate {
 		File openSansSemiBoldItalic = new File("src/main/resources/fonts/OpenSans-SemiboldItalic.ttf");
 		OutputStream os;
 		try{
-			os = new FileOutputStream("complex.pdf");
+			os = new FileOutputStream("geo_template.pdf");
 
 			try{
 				PdfRendererBuilder builder = new PdfRendererBuilder();
